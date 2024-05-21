@@ -1,0 +1,11 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+:root {
+  --main-color: #dbaf40;   /* Example color */
+}

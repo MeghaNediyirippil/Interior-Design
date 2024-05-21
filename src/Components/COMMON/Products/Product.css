@@ -1,0 +1,11 @@
+.cards-product{
+    background-color: rgba(255, 255, 255, 0.141);
+    color: rgba(255, 255, 255, 0.884);
+    border-radius: 10px;
+    transition: transform 0.5s;
+    
+}
+.cards-product:hover{
+    transform: scale(1.1); 
+    /* box-shadow: rgba(255, 254, 254, 0.843) 0px 5px 15px; */
+}

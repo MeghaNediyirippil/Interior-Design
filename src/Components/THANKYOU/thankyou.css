@@ -1,0 +1,12 @@
+.thank {
+    width: 100vw; /* Set the width to 100% of its container */
+    height: 60vh; /* Set the height to 100% of its container */
+    overflow: hidden; /* Hide any overflow beyond the specified width and height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-img {
+    object-fit: cover; /* Maintain the aspect ratio while covering the container */
+}

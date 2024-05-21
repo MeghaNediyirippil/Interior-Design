@@ -1,0 +1,59 @@
+.heading-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    /* justify-content: center; */
+    /* align-content: center; */
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 100%;
+    background-position: center center;
+    /* Adjust this property according to your needs */
+    background-repeat: no-repeat;
+    z-index: 1;
+
+
+}
+
+.contact-btn {
+    border: 2px solid black;
+    padding: 10px 30px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    margin: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent;
+}
+
+.contact-des {
+    font-size: 20px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    margin-top: 30px;
+    color: white;
+}
+
+.contact-card {
+    background-color: #343235;
+    opacity: 0.6;
+    text-align: center;
+    width: 250px;
+    padding: 50px 20px;
+    z-index: 3;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    top: -50px;
+    /* transform: perspective(500px) rotateX(20deg); */
+}
+
+.icon {
+    font-size: 50px;
+    margin: 30px;
+}

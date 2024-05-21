@@ -1,0 +1,58 @@
+.designs-wrapper{
+    background-color: black;
+    color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    overflow: hidden;
+    border: transparent;
+}
+
+.design-img{
+    width: 300px;
+    height: 200px;
+    transition: transform 1s ease-in-out;
+    overflow: hidden;
+}
+
+.card:hover .design-img {
+  transform: scale(1.1);
+}
+.design-img:hover {
+    transform: scale(1.1); /* Increase the scale factor for a more pronounced effect */
+}
+
+.design-heading{
+    margin: 0 200px;
+    text-align: center;
+}
+.design-title{
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding: 0;
+    width:fit-content;
+    text-align: center;
+    opacity: 0; 
+    animation: fadeIn 0.5s ease-in-out forwards; /* Animation name, duration, timing function, and fill-mode */
+  }
+  
+  /* Define the fadeIn animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+.title{
+    margin: 0;
+}
+
+
+
+
+
